@@ -4,13 +4,17 @@
 }
 
 nav {
-    background-color: #000000;
+    background-color: rgba(48, 41, 41, 0.555);
     padding: 0px 20px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 
 
+}
+
+#for{
+    text-align: center;
 }
 
 h1,
@@ -55,6 +59,9 @@ button:hover {
     cursor: pointer;
     opacity: 0.8;
     background-color: rgb(white green, blue);
+}
+#busca{
+    text-align: center;
 }
 
 @media(max-width:700px) {
