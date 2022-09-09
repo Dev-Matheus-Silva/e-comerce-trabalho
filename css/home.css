@@ -1,8 +1,7 @@
 
  body{
     color: white;
-    padding: 0px;
-    margin: 0px;
+   
   }
 
 .bd-placeholder-img {
@@ -42,6 +41,7 @@
 
   footer{
     background-color: #121314 ;
+    margin-top: 1em;
   }
 
   .rounded-circle{
@@ -77,10 +77,13 @@
     -webkit-overflow-scrolling: touch;
   }
 
+ 
+  
 
-  #margem{
-    padding-top: 0px;
-  }
+
+ 
+
+ 
 
  
 
@@ -88,11 +91,7 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-padding-top: 3rem;
-padding-bottom: 3rem;
-color: #5a5a5a;
-}
+
 
 
 /* CUSTOMIZE THE CAROUSEL
