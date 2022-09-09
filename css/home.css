@@ -79,6 +79,12 @@ max-height: 500px;
   user-select: none;
 }
 
+@media (max-width: 350px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
