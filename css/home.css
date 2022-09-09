@@ -79,7 +79,7 @@ max-height: 500px;
   user-select: none;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .container {
     flex-direction: column;
   }
