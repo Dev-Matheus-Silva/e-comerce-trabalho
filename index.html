@@ -1,195 +1,347 @@
-<!DOCTYPE html>
-<html lang="pt">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>guitar</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>troktokmusical</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/home.css" media="screen" />
 </head>
 
 <body>
-    <nav>
+    <header id="menuprincipal" class="p-3 mb-3 border-bottom">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="40" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
 
-        <div class="logo">
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary">HOME</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">INSTRUMENTOS</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">ACESSÓRIOS</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">CONTATOS</a></li>
+                </ul>
 
-            <img src="https://troktokmusical.com.br/wp-content/uploads/2020/07/logomarca.png" alt="">
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
 
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-         </div>
-         
-       
-
-
-
-        <button clik="abrirmenu()">&#9776;</button>
-        <ul id="botoesmenu">
-
-            <li>
-                <a id="link" href="">Precisa de ajuda?</a>
-            </li>
-
-
-
-
-
-            <li>
-                <a id="link" href="/login.html"> Minha conta </a>
-            </li>
-
-
-
-            <li>
-                <a id="link" href="">Meu carrinho</a>
-            </li>
-
-
-
-            <li>
-                <p></p>
-            </li>
-
-
-            <li>
-                <p></p>
-            </li>
-            </a>
-        </ul>
-
-    </nav>
-
-    <div class="container-fluid">
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Procurar" _mstplaceholder="116649" _mstaria-label="116649">
-          <button class="btn btn-outline-success" type="submit" _msthash="2893605" _msttexthash="116649">Procurar</button>
-        </form>
-      </div>
-
-    <main>
-        <section class="container">
-            <!--primeiro  card-->
-            <div class="card">
-
-                <img id="caixa-imagem"
-                    src="home/imagem/180_violino_dominante_4_4_completo_c_estojo_e_arco_especial_13611_1_2cf130def6211cd75b10783bb0e92753.webp"
-                    alt="">
-                <div class="content">
-                    <div class="produto-nome">VIOLINO DOMINANTE 4/4 COMPLETLO <br>C/ ESTOJO E ARCO ESPECIAL</div>
-                    <a href="#">comprar</a>
-
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="./home/image/" alt="mdo" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="#">HOME</a></li>
+                        <li><a class="dropdown-item" href="#">INSTRUMENTOS</a></li>
+                        <li><a class="dropdown-item" href="#">ACESSÓRIOS</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">SAIR</a></li>
+                    </ul>
                 </div>
-
             </div>
+        </div>
+    </header>
 
-            <!--segundo card-->
-            <div class="card">
-                <img id="caixa-imagem"
-                    src="home/imagem/180_suporte_super_clamp_p_microfone_gooseneck_stagg_scl_mign_13787_1_2436a8f93a3d9670c9632ff641a917b7.webp"
-                    alt="">
-                <div class="content">
-                    <div class="produto-nome">SUPORTE SUPER CLAMP MICROFONE <br>GOOSENECK</div>
-                    <a href="#">comprar</a>
 
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./home/image/2.png" class="img-fluid d-block ">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1></h1>
+                        <p></p>
+                    </div>
                 </div>
-
             </div>
+            <div class="carousel-item">
+                <img src="./home/image/3.png" class="img-fluid d-block ">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>
 
-            <!--terceiro card-->
-            <div class="card">
-                <img id="caixa-imagem"
-                    src="home/imagem/180_contrabaixo_passivo_sx_4_cordas_spb62_plus_sunburst_c_bag_sx_13819_1_c2a5b6843b6a0c68b7ec0725b122b275.webp"
-                    alt="">
-                <div class="content">
-                    <div class="produto-nome">CONTRABAIXO PASSIVO SX <br>4 CORDAS PLUS</div>
-                    <a href="#">comprar</a>
-
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1></h1>
+                        <p></p>
+                    </div>
                 </div>
-
             </div>
+            <div class="carousel-item">
+                <img src="./home/image/1.png" class="img-fluid d-block ">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>
 
-            <div class="card">
-                <img id="caixa-imagem"
-                    src="home/imagem/180_teclado_sintetizador_yamaha_mx61_v2_61_teclas_com_fonte_8793_1_59d0278947ad63bacdbccc32f7f0d1d1_20210901131552.webp"
-                    alt="">
-                <div class="content">
-                    <div class="produto-nome">TECLADO SINTETIZADOR YAMAHA MX61 <br>TECLAS COM FONTE</div>
-                    <a href="#">comprar</a>
-
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1></h1>
+                        <p></p>
+                    </div>
                 </div>
-
             </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="visually-hidden">Next</span>
+            </buspan class="carousel-control-next-icon" aria-hidden="true"></span>
+            <tton>
+    </div>
 
-            <div class="card">
-                <img id="caixa-imagem"
-                    src="home/imagem/180_microfone_akg_profissional_gamer_podcast_ara_c22_usb_13817_1_fb7a8458c4b63ae0ebb24ab67664c7fc.webp"
-                    alt="">
-                <div class="content">
-                    <div class="produto-nome">MICROFONE AKG PROFISSIONAL <br>GAMER PODCAST</div>
-                    <a href="#">comprar</a>
 
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+            <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                </svg>
+
+                <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
                 </div>
-
             </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                </svg>
 
-            <div class="card">
-                <img id="caixa-imagem"
-                    src="home/imagem/180_violao_eletrico_rozini_presenca_brasil_folk_rx316_natural_12837_1_4641f4606c042933de81290f9fb36c30.webp"
-                    alt="">
-                <div class="content">
-                    <div class="produto-nome">VIOLÃO ELETRICO ROZINI BRASIL <br>FOLK RX316 NATURAL</div>
-                    <a href="#">comprar</a>
-
+                <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
                 </div>
-
             </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                </svg>
 
-            <div class="card">
-                <img id="caixa-imagem"
-                    src="home/imagem/180_moving_head_pls_duo_300_free_5807_1_e10192317c6a250e580e876a5277553f_20210901152039.webp"
-                    alt="">
-                <div class="content">
-                    <div class="produto-nome">MOVING HEAD PLS DUO <br>300 FREE</div>
-                    <a href="#">comprar</a>
-
+                <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
                 </div>
-
             </div>
+        </div>
 
-            <div class="card">
-                <img id="caixa-imagem"
-                    src="home/imagem/180_pedal_simulador_de_gabinete_santo_angelo_gs312_13717_1_dbe2f546636802560af3c7dd772bdd24.webp"
-                    alt="">
-                <div class="content">
-                    <div class="produto-nome">SIMULADOR DE GABINETE SANTO ANGELO <br></div>
-                    <a href="#">comprar</a>
+        <div class="col">
+            <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                </svg>
 
+                <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
                 </div>
-
             </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                </svg>
 
-            <div class="card">
-                <img id="caixa-imagem"
-                    src="home/imagem/180_violao_eletrico_baby_crafter_traveler_mahogany_aco_com_bag_13009_1_2ba89e10b60260ec05e9f55d1fe9244a.webp"
-                    alt="">
-                <div class="content">
-                    <div class="produto-nome">ViOLÃO ELETRICO BABY <br>CRAFTER TRAVELER</div>
-                    <a href="#">comprar</a>
-
+                <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
                 </div>
-
             </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                </svg>
 
-        </section>
-    </main>
+                <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="col">
+            <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                </svg>
 
+                <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                </svg>
 
- <script>js/dist/*.jsbootstrap.jsbootstrap.min.js</script> 
+                <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                </svg>
 
+                <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Subir</a>
+            </p>
+
+            <p>Trok Tok Musical © 2020</p>
+            <p class="mb-0">Conhece nosso <a
+                    href="https://www.instagram.com/troktokmusical/?igshid=upgvbqwn1ru1">Instagram?</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
+</html>
