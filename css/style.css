@@ -1,49 +1,27 @@
 .container{
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    width: 1150px;
+    width:100%;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     
     
-
-}
-
-.container .card{
-    position: relative;
-    padding: 10px;
-    background-color: #fff;
-    margin: 20px;
-    border: 1px solid black;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: 0.5s;
-    text-align: center;
-    justify-content: space-between;
- 
-
     
+
 }
+
+
+
+
 
 
 .container .card .img{
     transition: 0.5s;
 }
 
-.produto-nome{
-    margin: 0px 18px;
-    font-size:.875rem;
-    line-height: 1.23;
-    letter-spacing: .28px;
-    -webkit-box-flex: 1;
-    flex-grow: 1;
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-}
 
 :root {
     --main-color: #000000;
