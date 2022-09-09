@@ -33,6 +33,22 @@ body {
   
   
 }
+.grid{
+display: block;
+margin: auto;
+width: auto;
+height: 80em;
+background-color: #fff;
+border: 1px solid lightgrey;
+border-radius: 40px;
+overflow: hidden;
+transition: 0.5s;
+text-align: center;
+justify-content: space-between;
+color: black;
+max-width: 1300px;
+max-height: 500px;
+}
 
 #subir{
   display: flex;
