@@ -132,7 +132,7 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
-  [15:15, 09/09/2022] Raquel Tavares: /* GLOBAL STYLES
+  /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
@@ -155,7 +155,7 @@
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-[15:15, 09/09/2022] Raquel Tavares: height: 32rem;
+height: 32rem;
 }
 
 
