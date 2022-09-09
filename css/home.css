@@ -167,10 +167,11 @@ header{
 
 
 .seta{
-  display: block;
+  position: fixed;
+  bottom:10px;
+  left: 10px;
+  z-index: 9999;
   border-radius: 20px;
-  position: absolute;
-  margin-bottom: 10px;
   
 }
 
