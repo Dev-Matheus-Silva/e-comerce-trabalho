@@ -65,6 +65,10 @@ max-height: 500px;
   right: 10px;
   z-index: 9999;
 }
+#zap1{
+  width: 30px;
+  height: 30px;
+}
 
 .bd-placeholder-img {
   font-size: 1.125rem;
