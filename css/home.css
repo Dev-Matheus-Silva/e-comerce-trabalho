@@ -36,8 +36,8 @@ body {
 
 #subir{
   display: flex;
-  margin-left: 40px ;
-  align-items: center;
+  margin-left: 40px;
+  
 }
 #zap {
   position: fixed;
