@@ -20,7 +20,7 @@ body {
 .card {
   
   
-  height: 30em;
+  height: 25em;
   padding: 10px;
   background-color: #fff;
   margin: 20px;
@@ -34,6 +34,11 @@ body {
   
 }
 
+#subir{
+  display: flex;
+  margin-left: 40px ;
+  align-items: center;
+}
 #zap {
   position: fixed;
   bottom: 10px;
@@ -81,6 +86,7 @@ footer {
   background-color: #121314;
   margin-bottom: 0px;
   margin-top: 2rem;
+  text-align: center;
 
 }
 
@@ -115,6 +121,30 @@ footer {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+}
+
+.card-title{
+  color: #121314;
+}
+
+.parcela {
+  background: #000 !important;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  border: 1px solid;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  
+  
+}
+
+
+header{
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+  width: 100%;
 }
 
 
