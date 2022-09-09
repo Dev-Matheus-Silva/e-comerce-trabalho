@@ -1,8 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
+ body{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+  }
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -37,9 +38,7 @@
     color: white;
   }
 
-  body{
-    color: white;
-  }
+ 
 
   footer{
     background-color: #121314 ;
@@ -78,14 +77,12 @@
     -webkit-overflow-scrolling: touch;
   }
 
-  #menuprincipal{
 
-    padding-top: 0em;
-    margin-top: 0em;
-   
-
-
+  #margem{
+    padding-top: 0px;
   }
+
+ 
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
