@@ -127,7 +127,7 @@ input[type="submit"]:hover{
   font-weight: bold;
   background: #f7f8f1;
   padding: 6px;
-  color: black
+  color: black;
   margin-left: 10px;
   border: 1px solid #cbd518;
 
@@ -154,7 +154,7 @@ input[type="submit"]:hover{
   background: rgb(247, 247, 247);
   border: 1px solid rgba(147, 184, 189,0.8);
   
-  -webkit-box-shadow: 5px;
+  
   border-radius: 5px;
   
   -webkit-animation-duration: 0.5s;
