@@ -1,115 +1,59 @@
-#login {
-    background: linear-gradient(120deg, #000000 44.9%, #ffffff 45%) no-repeat fixed;
-  }
-  
-  #app {
-    background: linear-gradient(120deg, #ffffff 44.9%, #000000 45%) no-repeat fixed;
-  }
-  
-  header {
-    border-bottom: 1px solid #bebcbc;
-    padding: 5px;
-    background-color: #ffffff;
-  }
-  
-  .color-primary {
-    color: #4e0070;
-  }
-  
-  .color-secondary {
-    color: #4c79d3;
-  }
-  
-  .text-login {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-  }
-  
-  .coins {
-    position: absolute;
-    bottom: 50px;
-  }
-  
-  .button-login {
-    border-radius: 10px;
-    background-color: #4e0070;
-    color: #ffffff;
-    padding: 5px 0px 5px 0px;
-    width: 50%;
-    margin: 0 25%;
-    text-align: center;
-  }
-  
-  .button-default {
-    border-radius: 10px;
-    background-color: #4e0070;
-    color: #ffffff;
-    height: 40px;
-    text-align: center;
-  }
-  
-  .button-login:hover,
-  .button-default:hover {
-    background: #4c79d3;
-    color: #ffffff;
-  }
-  
-  .button-cancel {
-    border-radius: 10px;
-  }
-  
-  .button-float {
-    border-radius: 100%;
-    height: 60px;
-    width: 60px;
-    position: fixed;
-    padding: 0 !important;
-    bottom: 1rem;
-    right: 2rem;
-    font-size: 35px;
-    color: #ffffff;
-    background-color: #4e0070;
-    border: 2px solid #4e0070;
-  }
-  
-  .button-float:hover {
-    border: 2px solid #4c79d3;
-    background-color: #ffffff;
-    color: #4c79d3;
-  }
-  
-  .link-default {
-    color: #4e0070;
-    cursor: pointer;
-  }
-  
-  .link-default:hover {
-    color: #4c79d3;
-  }
-  
-  .icon-detail {
-    font-size: 50px;
-    margin-right: 10px;
-    vertical-align: middle;
-  }
-  
-  .info {
-    background-color: #ffffff;
-    border-radius: 20px 20px 0px 0px;
-    padding-top: 20px 0px 0px 0px;
-  }
-  
-  .logout {
-    min-width: 3rem !important;
-  }
-  
-  .menu {
-    margin-right: 20px;
-  }
-  #logo{
-    width: 8.5em;
-  }
-  #logo1{
-    width: 1.5em;
-  }
+html {
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color:black;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  color: white;
+}
+
+#text{
+  z-index: 333;
+  font-weight:bold;
+  color: black;
+}
+.form {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+}
+
+form {
+  margin: 50px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.form-box input {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.button-box {
+  display: flex;
+  justify-content: end;
+}
+
+#button-send {
+  background-color: rgb(245, 143, 10);
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  height: 30px;
+  width: 70px;
+}
