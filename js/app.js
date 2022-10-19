@@ -6,7 +6,7 @@ const submitForm = (e) => {
   e.preventDefault(); 
 
   const data = accessData()
-  const url = "http://localhost:8080/users"
+  const url = "http://localhost:3000/user"
 
   if(!data) {
       return
